@@ -1,0 +1,35 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Monument;
+}
+html,body{
+    width: 100%;
+    height: 100%;
+    background-color: #fff;
+}
+
+.main{
+    position:relative;
+    border: 3px solid gray;
+}
+img{
+    width: 100px;
+    height: 100px;
+    position: absolute;
+    top: 0;
+    left: 0;
+    object-fit: cover;
+    border-radius: 50%;
+    transition: all linear 0.3s;
+    transform: translate(-50%,-50%) scale(0);
+
+}
+h1{
+    padding: 30px 50px;
+    font-weight: 300;
+    font-size: 80px;
+    color: white;
+    mix-blend-mode: difference;
+}

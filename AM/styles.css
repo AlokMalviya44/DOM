@@ -1,0 +1,42 @@
+body {
+    font-family: gilroy;
+    background: linear-gradient(135deg, #f06, #f79);
+    color: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+
+.container {
+    text-align: center;
+}
+
+h1 {
+    font-size: 3em;
+    margin-bottom: 20px;
+}
+
+.bouquet-container {
+    perspective: 1000px;
+}
+
+.bouquet {
+    width: 150px;
+    transition: transform 2s ease-in-out;
+    object-fit: cover;
+}
+
+.bouquet:hover {
+    transform: scale(1.5) translateZ(50px);
+}
+
+.quotes {
+    margin-top: 20px;
+}
+
+.quotes p {
+    font-size: 1.2em;
+    margin: 10px 0;
+}
