@@ -1,4 +1,28 @@
 git is the tech jo collaborative coding m help krta hai 
 git hub is the application jo git tech par bana hai 
 
-if you want to 
+Steps for uploading a project on github 
+
+Git and Github setup
+
+- download git and install it
+- make account on github
+- click on new repository and create it
+
+make a new folder, make a file naming index.html, open terminal and follow these steps
+
+- git init (if this is not working or showing error, restart vscode)
+- git add .
+- git commit -m”your message”
+- git config --global user.email “youremail@example.com" (for first time only)
+- git config --global user.name “yourusername” (for first time only)
+- git commit -m”your message”
+- git branch -M main
+- git remote add origin https://github.com/saarthack/test2.git (example)
+- git push -u origin main
+
+if you want to make further changes 
+
+- git add .
+- git commit -m”message”
+- git push -u origin main
