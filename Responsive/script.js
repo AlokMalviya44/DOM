@@ -30,4 +30,6 @@ flex-
     shrink - 
     childs ko flex shrink 0 denge aur parent ko flex wrap nowrap 
 
+media queries 
+@media(condition){}
 */
